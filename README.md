@@ -1,4 +1,4 @@
-# JKT48 API
+# JKT48 CORE
 
 A Node.js module for accessing JKT48 data from the v2.jkt48connect.my.id API.
 
