@@ -2,6 +2,8 @@
 
 A Node.js module for accessing JKT48 data from the v2.jkt48connect.my.id API.
 
+> **Documentation:** For complete details about data output and API usage, visit [docs.jkt48connect.my.id](https://docs.jkt48connect.my.id)
+
 ## Installation
 
 ```bash
@@ -69,7 +71,7 @@ You can use the following free API keys provided by the JKT48Connect team:
 ### Custom API Keys
 
 For custom API keys with various plans such as Premium and PremiumPlus (Premium+), please contact Valzy on WhatsApp:
-- WhatsApp: [Click Here!](https://wa.me/6285701479245)
+- WhatsApp: [wa.me/6285701479245](https://wa.me/6285701479245)
 
 ## API Reference
 
