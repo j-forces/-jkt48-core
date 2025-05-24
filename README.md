@@ -39,6 +39,12 @@ This package provides easy access to JKT48 data through the following features:
 - Get theater information
 - Get theater details by ID
 
+### Replay 
+- Get all replay theater & live 
+
+### Chat Stream
+- Get all chat stram for idn live & showroom
+
 ## Usage
 
 All functions in this package require an API key that should be passed as a parameter.
@@ -162,6 +168,25 @@ const theater = await jkt48Api.theater(apiKey);
 ```javascript
 const theaterId = '123456';
 const theaterDetail = await jkt48Api.theaterDetail(theaterId, apiKey);
+```
+
+### Replay
+
+#### Get replay data
+```javascript
+const replay = await jkt48Api.replay(apiKey);
+```
+
+### Chat Stream [NEW] 
+
+#### Get chat stream idn
+```javascript
+const chatStream = await jkt48Api.chatStream(username, slug, apiKey);
+```
+
+#### Get chat stream Showroom
+```javascript
+const chatStreamSR = await jkt48Api.chatStreamSR(roomId, apiKey);
 ```
 
 ## Error Handling
